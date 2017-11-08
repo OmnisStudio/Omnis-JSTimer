@@ -1,5 +1,5 @@
 # Omnis-JSTimer
-Library demonstrates the use of the timer object
+Library demonstrates the use of the timer object.
 The app can be viewed here http://tinyurl.com/jsgallery8, click on 'Timer' in the list.
 
 Requires Omnis Studio 8.1.2 or above
