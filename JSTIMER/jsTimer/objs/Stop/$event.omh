@@ -1,0 +1,5 @@
+On evClick
+	Do iLog.$add(con('Timer Cancelled at ',tim(#T,'H:N.S')))
+	Do $cinst.$objs.Timer.$running.$assign(kFalse)
+	Do $cinst.$objs.Start.$enabled.$assign(kTrue)
+	Do $cobj.$enabled.$assign(kFalse)

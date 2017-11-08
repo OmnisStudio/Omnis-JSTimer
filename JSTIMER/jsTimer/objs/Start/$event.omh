@@ -1,0 +1,6 @@
+On evClick
+	Do iLog.$add(con('Timer Started at ',tim(#T,'H:N.S')))
+	Do $cinst.$objs.Timer.$timervalue.$assign(iSeconds)
+	Do $cinst.$objs.Timer.$running.$assign(kTrue)
+	Do $cobj.$enabled.$assign(kFalse)
+	Do $cinst.$objs.Stop.$enabled.$assign(kTrue)

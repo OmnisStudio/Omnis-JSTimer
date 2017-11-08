@@ -1,0 +1,5 @@
+On evTimer
+	Do iLog.$add(con('Timer Finished at ',tim(#T,'H:N.S')))
+	Do $cinst.$objs.Timer.$running.$assign(kFalse)
+	Do $cinst.$objs.Start.$enabled.$assign(kTrue)
+	Do $cinst.$objs.Stop.$enabled.$assign(kFalse)
